@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys
 import os
-# sys.path.insert(0, os.path.abspath(os.path.dirname(__file__))+'/src/node_bridge_ros2')
 
 # 定义要引用的ROS2包列表
 ros2_packages = ['autoaim', 'node_bridge_ros2', 'node_interface']
@@ -116,7 +115,7 @@ def aim_enemy(app_config, image_queue, packet_queue):
     task_count = 0
     # node bridge
     protocol_data = protocol.NodeBridgeProtocol()
-    autoaim_data = protocol.create_protocol_data('autoaimData')
+    autoaim_data = protocol.create_protocol_data('AutoaimData')
     while task_count <= app_config['stop_after']:
         task_count = task_count % 10086 + 1
 
@@ -255,7 +254,7 @@ def aim_enemy(app_config, image_queue, packet_queue):
         autoaim_data['yaw_angle_diff'] = output[0]
         autoaim_data['pitch_angle_diff'] = output[1]
         autoaim_data['fire'] = shoot_it
-        packet = protocol.pack('autoaimData', autoaim_data, seq=packet_seq)
+        packet = protocol.pack('AutoaimData', autoaim_data, seq=packet_seq)
         if packet_queue.full():
             packet_queue.get()
         packet_queue.put_nowait(packet)

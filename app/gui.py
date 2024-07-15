@@ -1,3 +1,13 @@
+import sys
+import os
+
+# 定义要引用的ROS2包列表
+ros2_packages = ['autoaim', 'node_bridge_ros2', 'node_interface']
+workspace_dir = os.path.expanduser('~/ros/workspace/nbr2_ws')
+# 将每个ROS2包的路径添加到sys.path
+for package_name in ros2_packages:
+    packages_path = os.path.join(workspace_dir,'src', package_name)
+    sys.path.insert(0, packages_path)
 
 from autoaim import helpers, Camera, Config, Predictor
 from toolz import pipe, curry

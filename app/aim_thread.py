@@ -3,7 +3,18 @@
 
 Author:
 '''
-import autoaim
+import sys
+import os
+
+# 定义要引用的ROS2包列表
+ros2_packages = ['autoaim', 'node_bridge_ros2', 'node_interface']
+workspace_dir = os.path.expanduser('~/ros/workspace/nbr2_ws')
+# 将每个ROS2包的路径添加到sys.path
+for package_name in ros2_packages:
+    packages_path = os.path.join(workspace_dir,'src', package_name)
+    sys.path.insert(0, packages_path)
+
+from autoaim import helpers
 import app
 import threading
 import sys
@@ -12,12 +23,12 @@ import queue
 
 if __name__ == '__main__':
     app_config = {
-        'config_name': 'default',
+        'config_name': 'aimred',
         'camera': {
             'source': 0,
             # 'method': 'daheng',
             # 'method': 'default',
-            'source': autoaim.helpers.data_dir+'test19.mp4',
+            'source': helpers.main_dir+'test19.mp4',
             'method': 'video',
         },
         'width': 1280,

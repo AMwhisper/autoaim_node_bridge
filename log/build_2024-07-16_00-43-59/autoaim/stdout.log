@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/autoaim/autoaim.egg-info/PKG-INFO
+writing dependency_links to ../../build/autoaim/autoaim.egg-info/dependency_links.txt
+writing entry points to ../../build/autoaim/autoaim.egg-info/entry_points.txt
+writing requirements to ../../build/autoaim/autoaim.egg-info/requires.txt
+writing top-level names to ../../build/autoaim/autoaim.egg-info/top_level.txt
+reading manifest file '../../build/autoaim/autoaim.egg-info/SOURCES.txt'
+writing manifest file '../../build/autoaim/autoaim.egg-info/SOURCES.txt'
+running build
+running build_py
+copying autoaim/attrdict.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+running install
+running install_lib
+copying /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim/attrdict.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/attrdict.py to attrdict.cpython-310.pyc
+running install_data
+creating /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/autoaim/weights
+copying weights/lamp.csv -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/autoaim/weights
+copying weights/pair.csv -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/autoaim/weights
+running install_egg_info
+removing '/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/autoaim/autoaim.egg-info to /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/install.log'

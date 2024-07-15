@@ -4,7 +4,6 @@ from os import path
 import csv
 import cv2
 import numpy as np
-import numpy
 from functools import wraps
 # from matplotlib import pyplot as plt
 

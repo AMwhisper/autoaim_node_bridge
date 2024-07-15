@@ -16,6 +16,9 @@
 /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/__pycache__/predictor.cpython-310.pyc
 /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/ament_index/resource_index/packages/autoaim
 /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/autoaim/package.xml
+/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/autoaim/configs/aimred.json
+/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/autoaim/weights/lamp.csv
+/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/autoaim/weights/pair.csv
 /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim-0.0.0-py3.10.egg-info/entry_points.txt
 /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim-0.0.0-py3.10.egg-info/top_level.txt
 /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim-0.0.0-py3.10.egg-info/SOURCES.txt
