@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# autoaim_node_bridge
-=======
 # autoaim_node_bridge 
 (Testing)
 ## Introduction  
@@ -17,4 +14,4 @@ workspace_dir = os.path.expanduser('~/ros/workspace/nbr2_ws')
 Change "workspace_dir" to your workspace path.
 ##Todo  
 Modify "potocol.h" to make it corresponding with the interfaces in "node_interface".
->>>>>>> ef4f0d5 (Create README.md)
+
