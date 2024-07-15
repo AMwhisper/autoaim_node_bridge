@@ -11,7 +11,7 @@ Remember to change the following codes in ./src/node_bridge_ros2/protocol.py and
 ```
 workspace_dir = os.path.expanduser('~/ros/workspace/nbr2_ws')
 ```
-Change "workspace_dir" to your workspace path.
-##Todo  
+Change "workspace_dir" to your workspace path.  
+## Todo  
 Modify "potocol.h" to make it corresponding with the interfaces in "node_interface".
 
