@@ -10,10 +10,9 @@ There are three ros2 packages, named "autoaim", "node_bridge_ros2" and "node_int
 As the name suggests, "autoaim" means aimbot, "node_bridge_ros2" means that it's a communication bridge between stm32 and ros2 ,and "node_interface" stores several different interfaces.  
 The file "app" includes the startup files of the whole project.  
 ## Notice  
-Remember to change the following codes in /src/node_bridge_ros2/protocol.py   
+Remember to change the following codes in ./src/node_bridge_ros2/protocol.py and ./app/app.py  
 ```
 workspace_dir = os.path.expanduser('~/ros/workspace/nbr2_ws')
-yaml_path = os.path.join(workspace_dir,'library', 'protocol.yaml')
 ```
 Change "workspace_dir" to your workspace path.
 ##Todo  
