@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendGyroscopeData.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: gyroscopeData" "\n"
+      "protocol_id: 0X0403" "\n"
+      "protocol_description: 陀螺仪数据")
+    struct SendGyroscopeData_Request {
+      float yaw;
+
+      float pitch;
+
+      float roll;
+    };
+    struct SendGyroscopeData_Response {
+      string result;
+    };
+  };
+};

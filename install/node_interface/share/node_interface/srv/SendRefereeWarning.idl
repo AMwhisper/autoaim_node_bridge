@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendRefereeWarning.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: refereeWarning" "\n"
+      "protocol_id: 0X0104" "\n"
+      "protocol_description: 裁判警告信息")
+    struct SendRefereeWarning_Request {
+      uint8 level;
+
+      uint8 foul_robot_id;
+    };
+    struct SendRefereeWarning_Response {
+      string result;
+    };
+  };
+};

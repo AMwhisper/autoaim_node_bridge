@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from node_interface/msg/PowerHeatData.msg
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "protocol_name: powerHeatData" "\n"
+      "protocol_id: 0X0202" "\n"
+      "protocol_description: 实时功率热量数据")
+    struct PowerHeatData {
+      uint16 chassis_volt;
+
+      uint16 chassis_current;
+
+      float chassis_power;
+
+      uint16 chassis_power_buffer;
+
+      uint16 shooter_id1_17mm_cooling_heat;
+
+      uint16 shooter_id2_17mm_cooling_heat;
+
+      uint16 shooter_id1_42mm_cooling_heat;
+    };
+  };
+};

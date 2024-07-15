@@ -1,0 +1,4 @@
+Invoking command in '/home/amwhisper/ros/workspace/nbr2_ws/build/node_interface': /usr/bin/cmake --build /home/amwhisper/ros/workspace/nbr2_ws/build/node_interface -- -j6 -l6
+Invoked command in '/home/amwhisper/ros/workspace/nbr2_ws/build/node_interface' returned '0': /usr/bin/cmake --build /home/amwhisper/ros/workspace/nbr2_ws/build/node_interface -- -j6 -l6
+Invoking command in '/home/amwhisper/ros/workspace/nbr2_ws/build/node_interface': /usr/bin/cmake --install /home/amwhisper/ros/workspace/nbr2_ws/build/node_interface
+Invoked command in '/home/amwhisper/ros/workspace/nbr2_ws/build/node_interface' returned '0': /usr/bin/cmake --install /home/amwhisper/ros/workspace/nbr2_ws/build/node_interface

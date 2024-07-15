@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from node_interface/msg/DartClientCmds.msg
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "protocol_name: dartClientCmds" "\n"
+      "protocol_id: 0X020A" "\n"
+      "protocol_description: 飞镖机器人客户端指令数据")
+    struct DartClientCmds {
+      uint8 dart_launch_opening_status;
+
+      uint8 dart_attack_target;
+
+      uint16 target_change_time;
+
+      uint8 first_dart_speed;
+
+      uint8 second_dart_speed;
+
+      uint8 third_dart_speed;
+
+      uint8 fourth_dart_speed;
+
+      uint16 last_dart_launch_time;
+
+      uint16 operate_launch_cmd_time;
+    };
+  };
+};

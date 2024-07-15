@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendDartRemainingTime.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: dartRemainingtime" "\n"
+      "protocol_id: 0X0105" "\n"
+      "protocol_description: 飞镖发射口倒计")
+    struct SendDartRemainingTime_Request {
+      uint8 dart_remaining_time;
+    };
+    struct SendDartRemainingTime_Response {
+      string result;
+    };
+  };
+};

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendRfidStatus.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: rfidStatus" "\n"
+      "protocol_id: 0X0209" "\n"
+      "protocol_description: 机器人RFID状态")
+    struct SendRfidStatus_Request {
+      uint32 rfid_status;
+    };
+    struct SendRfidStatus_Response {
+      string result;
+    };
+  };
+};

@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendRobotCommunication.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: robotCommunication" "\n"
+      "protocol_id: 0XF301" "\n"
+      "protocol_description: 学生机器人间通信")
+    struct SendRobotCommunication_Request {
+      uint16 data_cmd_id;
+
+      uint16 send_id;
+
+      uint16 receiver_id;
+
+      int32 data1;
+
+      int32 data2;
+
+      int32 data3;
+
+      int32 data4;
+    };
+    struct SendRobotCommunication_Response {
+      string result;
+    };
+  };
+};

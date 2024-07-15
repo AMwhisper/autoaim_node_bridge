@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendClientCustomGraphicFive.srv
+// generated code does not contain a copyright notice
+
+#include "node_interface/msg/GraphicDataType.idl"
+
+module node_interface {
+  module srv {
+    typedef node_interface::msg::GraphicDataType node_interface__msg__GraphicDataType;
+    typedef node_interface__msg__GraphicDataType node_interface__msg__GraphicDataType__5[5];
+    @verbatim (language="comment", text=
+      "protocol_name: clientCustomGraphicFive" "\n"
+      "protocol_id: 0XF103" "\n"
+      "protocol_description: 客户端绘制五个图形")
+    struct SendClientCustomGraphicFive_Request {
+      uint16 data_cmd_id;
+
+      uint16 send_id;
+
+      uint16 receiver_id;
+
+      node_interface__msg__GraphicDataType__5 grapic_data_struct;
+    };
+    struct SendClientCustomGraphicFive_Response {
+      string result;
+    };
+  };
+};

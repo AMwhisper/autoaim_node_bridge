@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/requires.txt
+writing top-level names to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/top_level.txt
+reading manifest file '../../build/node_bridge_ros2/node_bridge_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../build/node_bridge_ros2/node_bridge_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying node_bridge_ros2/bridge_ros2.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build/lib/node_bridge_ros2
+running install
+running install_lib
+copying /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build/lib/node_bridge_ros2/bridge_ros2.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages/node_bridge_ros2
+byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages/node_bridge_ros2/bridge_ros2.py to bridge_ros2.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages/node_bridge_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/node_bridge_ros2/node_bridge_ros2.egg-info to /home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages/node_bridge_ros2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bridge_ros2 script to /home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/node_bridge_ros2
+writing list of installed files to '/home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/install.log'

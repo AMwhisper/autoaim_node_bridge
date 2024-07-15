@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendBoardBeta.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: boardBeta" "\n"
+      "protocol_id: 0X0502" "\n"
+      "protocol_description: 主控板间通信")
+    struct SendBoardBeta_Request {
+      int32 data1;
+
+      int32 data2;
+
+      int32 data3;
+
+      int32 data4;
+    };
+    struct SendBoardBeta_Response {
+      string result;
+    };
+  };
+};

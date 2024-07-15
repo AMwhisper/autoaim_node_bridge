@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendAutoaimData.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: autoaimData" "\n"
+      "protocol_id: 0X0401" "\n"
+      "protocol_description: 云台控制")
+    struct SendAutoaimData_Request {
+      float yaw_angle_diff;
+
+      float pitch_angle_diff;
+
+      uint8 fire;
+    };
+    struct SendAutoaimData_Response {
+      string result;
+    };
+  };
+};

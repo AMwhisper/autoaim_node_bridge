@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendDebugInfo.srv
+// generated code does not contain a copyright notice
+
+#include "node_interface/msg/DebugDataType.idl"
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: debugInfo" "\n"
+      "protocol_id: 0X1024" "\n"
+      "protocol_description: 调试信息")
+    struct SendDebugInfo_Request {
+      node_interface::msg::DebugDataType debug_data;
+    };
+    struct SendDebugInfo_Response {
+      string result;
+    };
+  };
+};

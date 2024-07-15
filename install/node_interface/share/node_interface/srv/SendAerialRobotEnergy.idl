@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendAerialRobotEnergy.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: aerialRobotenergy" "\n"
+      "protocol_id: 0X0205" "\n"
+      "protocol_description: 空中机器人能量状态")
+    struct SendAerialRobotEnergy_Request {
+      uint8 attack_time;
+    };
+    struct SendAerialRobotEnergy_Response {
+      string result;
+    };
+  };
+};

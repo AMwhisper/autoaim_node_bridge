@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendSupplyProjectileAction.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: supplyProjectileaction" "\n"
+      "protocol_id: 0X0102" "\n"
+      "protocol_description: 补给站动作标识")
+    struct SendSupplyProjectileAction_Request {
+      uint8 supply_projectile_id;
+
+      uint8 supply_robot_id;
+
+      uint8 supply_projectile_step;
+
+      uint8 supply_projectile_num;
+    };
+    struct SendSupplyProjectileAction_Response {
+      string result;
+    };
+  };
+};

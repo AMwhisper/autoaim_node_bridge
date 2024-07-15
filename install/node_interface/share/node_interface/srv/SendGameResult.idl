@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendGameResult.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: gameResult" "\n"
+      "protocol_id: 0X0002" "\n"
+      "protocol_description: 比赛结果的数据")
+    struct SendGameResult_Request {
+      uint8 winner;
+    };
+    struct SendGameResult_Response {
+      string result;
+    };
+  };
+};

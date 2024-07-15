@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendShootData.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: shootData" "\n"
+      "protocol_id: 0X0207" "\n"
+      "protocol_description: 实时射击信息")
+    struct SendShootData_Request {
+      uint8 bullet_type;
+
+      uint8 shooter_id;
+
+      uint8 bullet_freq;
+
+      float bullet_speed;
+    };
+    struct SendShootData_Response {
+      string result;
+    };
+  };
+};

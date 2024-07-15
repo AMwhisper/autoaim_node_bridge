@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from node_interface/msg/ClientCustomCharacter.msg
+// generated code does not contain a copyright notice
+
+#include "node_interface/msg/GraphicDataType.idl"
+
+module node_interface {
+  module msg {
+    typedef uint8 uint8__30[30];
+    @verbatim (language="comment", text=
+      "protocol_name: clientCustomCharacter" "\n"
+      "protocol_id: 0XF110" "\n"
+      "protocol_description: 客户端绘制字符")
+    struct ClientCustomCharacter {
+      uint16 data_cmd_id;
+
+      uint16 send_id;
+
+      uint16 receiver_id;
+
+      node_interface::msg::GraphicDataType grapic_data_struct;
+
+      uint8__30 data;
+    };
+  };
+};

@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendIcraBuffDebuffZoneStatus.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: icraBuffDebuffZoneStatus" "\n"
+      "protocol_id: 0X0005" "\n"
+      "protocol_description: 人工智能挑战赛加成与惩罚区状态")
+    struct SendIcraBuffDebuffZoneStatus_Request {
+      uint8 f1_zone_status;
+
+      uint8 f1_zone_buff_debuff_status;
+
+      uint8 f2_zone_status;
+
+      uint8 f2_zone_buff_debuff_status;
+
+      uint8 f3_zone_status;
+
+      uint8 f3_zone_buff_debuff_status;
+
+      uint8 f4_zone_status;
+
+      uint8 f4_zone_buff_debuff_status;
+
+      uint8 f5_zone_status;
+
+      uint8 f5_zone_buff_debuff_status;
+
+      uint8 f6_zone_status;
+
+      uint8 f6_zone_buff_debuff_status;
+
+      uint16 red1_bullet_left;
+
+      uint16 red2_bullet_left;
+
+      uint16 blue1_bullet_left;
+
+      uint16 blue2_bullet_left;
+    };
+    struct SendIcraBuffDebuffZoneStatus_Response {
+      string result;
+    };
+  };
+};

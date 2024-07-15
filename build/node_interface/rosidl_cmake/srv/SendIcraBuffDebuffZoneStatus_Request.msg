@@ -1,0 +1,20 @@
+# protocol_name: icraBuffDebuffZoneStatus
+# protocol_id: 0X0005
+# protocol_description: 人工智能挑战赛加成与惩罚区状态
+
+uint8 f1_zone_status
+uint8 f1_zone_buff_debuff_status
+uint8 f2_zone_status
+uint8 f2_zone_buff_debuff_status
+uint8 f3_zone_status
+uint8 f3_zone_buff_debuff_status
+uint8 f4_zone_status
+uint8 f4_zone_buff_debuff_status
+uint8 f5_zone_status
+uint8 f5_zone_buff_debuff_status
+uint8 f6_zone_status
+uint8 f6_zone_buff_debuff_status
+uint16 red1_bullet_left
+uint16 red2_bullet_left
+uint16 blue1_bullet_left
+uint16 blue2_bullet_left

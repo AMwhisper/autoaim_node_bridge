@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from node_interface/msg/GraphicDataType.msg
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module msg {
+    typedef uint8 uint8__3[3];
+    @verbatim (language="comment", text=
+      "protocol_name: GraphicData_Type")
+    struct GraphicDataType {
+      uint8__3 graphic_name;
+
+      uint32 operate_tpye;
+
+      uint32 graphic_tpye;
+
+      uint32 layer;
+
+      uint32 color;
+
+      uint32 start_angle;
+
+      uint32 end_angle;
+
+      uint32 width;
+
+      uint32 start_x;
+
+      uint32 start_y;
+
+      uint32 radius;
+
+      uint32 end_x;
+
+      uint32 end_y;
+    };
+  };
+};

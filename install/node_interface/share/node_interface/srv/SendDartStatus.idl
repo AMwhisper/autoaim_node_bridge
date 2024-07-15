@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendDartStatus.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: dartStatus" "\n"
+      "protocol_id: 0X0004" "\n"
+      "protocol_description: 飞镖发射状态")
+    struct SendDartStatus_Request {
+      uint8 dart_belong;
+
+      uint16 stage_remaining_time;
+    };
+    struct SendDartStatus_Response {
+      string result;
+    };
+  };
+};

@@ -1,0 +1,21 @@
+[0.402s] Invoking command in '/home/amwhisper/ros/workspace/nbr2_ws/src/node_bridge_ros2': PYTHONPATH=/home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/prefix_override:/home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/node_bridge_ros2 build --build-base /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build install --record /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/install.log --single-version-externally-managed install_data
+[0.561s] running egg_info
+[0.561s] writing ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/PKG-INFO
+[0.562s] writing dependency_links to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/dependency_links.txt
+[0.562s] writing entry points to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/entry_points.txt
+[0.562s] writing requirements to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/requires.txt
+[0.562s] writing top-level names to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/top_level.txt
+[0.564s] reading manifest file '../../build/node_bridge_ros2/node_bridge_ros2.egg-info/SOURCES.txt'
+[0.564s] writing manifest file '../../build/node_bridge_ros2/node_bridge_ros2.egg-info/SOURCES.txt'
+[0.564s] running build
+[0.564s] running build_py
+[0.565s] running install
+[0.565s] running install_lib
+[0.566s] running install_data
+[0.566s] running install_egg_info
+[0.567s] removing '/home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages/node_bridge_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.567s] Copying ../../build/node_bridge_ros2/node_bridge_ros2.egg-info to /home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages/node_bridge_ros2-0.0.0-py3.10.egg-info
+[0.568s] running install_scripts
+[0.582s] Installing bridge_ros2 script to /home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/node_bridge_ros2
+[0.582s] writing list of installed files to '/home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/install.log'
+[0.596s] Invoked command in '/home/amwhisper/ros/workspace/nbr2_ws/src/node_bridge_ros2' returned '0': PYTHONPATH=/home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/prefix_override:/home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/node_bridge_ros2 build --build-base /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build install --record /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/install.log --single-version-externally-managed install_data

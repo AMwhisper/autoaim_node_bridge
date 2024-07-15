@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendBulletRemaining.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: bulletRemaining" "\n"
+      "protocol_id: 0X0208" "\n"
+      "protocol_description: 子弹剩余发射数")
+    struct SendBulletRemaining_Request {
+      uint16 bullet_remaining_num_17mm;
+
+      uint16 bullet_remaining_num_42mm;
+
+      uint16 coin_remaining_num;
+    };
+    struct SendBulletRemaining_Response {
+      string result;
+    };
+  };
+};

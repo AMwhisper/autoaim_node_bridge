@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from node_interface/msg/ErrorInfo.msg
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module msg {
+    typedef uint8 uint8__22[22];
+    @verbatim (language="comment", text=
+      "protocol_name: errorInfo" "\n"
+      "protocol_id: 0X6666" "\n"
+      "protocol_description: 报错信息")
+    struct ErrorInfo {
+      uint16 code;
+
+      uint8__22 text;
+    };
+  };
+};

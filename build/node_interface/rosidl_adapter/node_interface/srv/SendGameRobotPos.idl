@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendGameRobotPos.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: gameRobotpos" "\n"
+      "protocol_id: 0X0203" "\n"
+      "protocol_description: 机器人位置")
+    struct SendGameRobotPos_Request {
+      float x;
+
+      float y;
+
+      float z;
+
+      float yaw;
+    };
+    struct SendGameRobotPos_Response {
+      string result;
+    };
+  };
+};

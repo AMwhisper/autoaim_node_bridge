@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from node_interface/msg/EventData.msg
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "protocol_name: eventData" "\n"
+      "protocol_id: 0X0101" "\n"
+      "protocol_description: 场地事件数据")
+    struct EventData {
+      uint32 event_type;
+    };
+  };
+};

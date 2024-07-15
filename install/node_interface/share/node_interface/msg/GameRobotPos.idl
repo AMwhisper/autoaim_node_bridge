@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from node_interface/msg/GameRobotPos.msg
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "protocol_name: gameRobotpos" "\n"
+      "protocol_id: 0X0203" "\n"
+      "protocol_description: 机器人位置")
+    struct GameRobotPos {
+      float x;
+
+      float y;
+
+      float z;
+
+      float yaw;
+    };
+  };
+};

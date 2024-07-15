@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from node_interface/msg/BoardAlpha.msg
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "protocol_name: boardAlpha" "\n"
+      "protocol_id: 0X0501" "\n"
+      "protocol_description: 主控板间通信")
+    struct BoardAlpha {
+      int32 data1;
+
+      int32 data2;
+
+      int32 data3;
+
+      int32 data4;
+    };
+  };
+};

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendDbugData.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    typedef uint8 uint8__18[18];
+    @verbatim (language="comment", text=
+      "protocol_name: dbugData" "\n"
+      "protocol_id: 0X0404" "\n"
+      "protocol_description: 遥控器及键鼠数据")
+    struct SendDbugData_Request {
+      uint8__18 dbus_buffer;
+    };
+    struct SendDbugData_Response {
+      string result;
+    };
+  };
+};

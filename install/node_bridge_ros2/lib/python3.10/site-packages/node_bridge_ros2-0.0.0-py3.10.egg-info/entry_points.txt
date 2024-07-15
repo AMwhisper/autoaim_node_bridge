@@ -1,0 +1,3 @@
+[console_scripts]
+bridge_ros2 = node_bridge_ros2.bridge_ros2:main
+

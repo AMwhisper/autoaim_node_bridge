@@ -1,0 +1,54 @@
+[0.453s] Invoking command in '/home/amwhisper/ros/workspace/nbr2_ws/src/autoaim': PYTHONPATH=/home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/prefix_override:/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autoaim build --build-base /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build install --record /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/install.log --single-version-externally-managed install_data
+[0.636s] running egg_info
+[0.636s] creating ../../build/autoaim/autoaim.egg-info
+[0.636s] writing ../../build/autoaim/autoaim.egg-info/PKG-INFO
+[0.637s] writing dependency_links to ../../build/autoaim/autoaim.egg-info/dependency_links.txt
+[0.637s] writing entry points to ../../build/autoaim/autoaim.egg-info/entry_points.txt
+[0.637s] writing requirements to ../../build/autoaim/autoaim.egg-info/requires.txt
+[0.637s] writing top-level names to ../../build/autoaim/autoaim.egg-info/top_level.txt
+[0.637s] writing manifest file '../../build/autoaim/autoaim.egg-info/SOURCES.txt'
+[0.638s] reading manifest file '../../build/autoaim/autoaim.egg-info/SOURCES.txt'
+[0.639s] writing manifest file '../../build/autoaim/autoaim.egg-info/SOURCES.txt'
+[0.639s] running build
+[0.640s] running build_py
+[0.640s] creating /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build
+[0.640s] creating /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib
+[0.640s] creating /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+[0.640s] copying autoaim/__init__.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+[0.641s] copying autoaim/attrdict.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+[0.641s] copying autoaim/toolbox.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+[0.641s] copying autoaim/telegram.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+[0.642s] copying autoaim/camera.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+[0.642s] copying autoaim/helpers.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+[0.642s] copying autoaim/dataloader.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+[0.642s] copying autoaim/predictor.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+[0.642s] running install
+[0.643s] running install_lib
+[0.643s] creating /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+[0.643s] copying /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim/__init__.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+[0.643s] copying /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim/attrdict.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+[0.643s] copying /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim/toolbox.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+[0.644s] copying /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim/telegram.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+[0.644s] copying /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim/camera.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+[0.644s] copying /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim/helpers.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+[0.644s] copying /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim/dataloader.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+[0.644s] copying /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim/predictor.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+[0.644s] byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/__init__.py to __init__.cpython-310.pyc
+[0.645s] byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/attrdict.py to attrdict.cpython-310.pyc
+[0.645s] byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/toolbox.py to toolbox.cpython-310.pyc
+[0.649s] byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/telegram.py to telegram.cpython-310.pyc
+[0.650s] byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/camera.py to camera.cpython-310.pyc
+[0.650s] byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/helpers.py to helpers.cpython-310.pyc
+[0.651s] byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/dataloader.py to dataloader.cpython-310.pyc
+[0.651s] byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/predictor.py to predictor.cpython-310.pyc
+[0.652s] running install_data
+[0.652s] creating /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/ament_index
+[0.653s] creating /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/ament_index/resource_index
+[0.653s] creating /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/ament_index/resource_index/packages
+[0.653s] copying resource/autoaim -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/ament_index/resource_index/packages
+[0.653s] copying package.xml -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/autoaim
+[0.653s] running install_egg_info
+[0.654s] Copying ../../build/autoaim/autoaim.egg-info to /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim-0.0.0-py3.10.egg-info
+[0.654s] running install_scripts
+[0.670s] writing list of installed files to '/home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/install.log'
+[0.685s] Invoked command in '/home/amwhisper/ros/workspace/nbr2_ws/src/autoaim' returned '0': PYTHONPATH=/home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/prefix_override:/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autoaim build --build-base /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build install --record /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/install.log --single-version-externally-managed install_data

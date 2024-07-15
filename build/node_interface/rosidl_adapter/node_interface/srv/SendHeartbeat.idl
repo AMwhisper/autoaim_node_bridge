@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendHeartbeat.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: heartbeat" "\n"
+      "protocol_id: 0X0120" "\n"
+      "protocol_description: 心跳包")
+    struct SendHeartbeat_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct SendHeartbeat_Response {
+      string result;
+    };
+  };
+};

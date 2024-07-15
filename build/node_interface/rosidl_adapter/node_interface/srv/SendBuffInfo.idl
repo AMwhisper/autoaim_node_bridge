@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendBuffInfo.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: buffInfo" "\n"
+      "protocol_id: 0X0204" "\n"
+      "protocol_description: 机器人增益")
+    struct SendBuffInfo_Request {
+      uint8 power_rune_buff;
+    };
+    struct SendBuffInfo_Response {
+      string result;
+    };
+  };
+};

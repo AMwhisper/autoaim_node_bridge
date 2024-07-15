@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendErrorInfo.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    typedef uint8 uint8__22[22];
+    @verbatim (language="comment", text=
+      "protocol_name: errorInfo" "\n"
+      "protocol_id: 0X6666" "\n"
+      "protocol_description: 报错信息")
+    struct SendErrorInfo_Request {
+      uint16 code;
+
+      uint8__22 text;
+    };
+    struct SendErrorInfo_Response {
+      string result;
+    };
+  };
+};

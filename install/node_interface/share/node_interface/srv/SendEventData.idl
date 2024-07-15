@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from node_interface/srv/SendEventData.srv
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "protocol_name: eventData" "\n"
+      "protocol_id: 0X0101" "\n"
+      "protocol_description: 场地事件数据")
+    struct SendEventData_Request {
+      uint32 event_type;
+    };
+    struct SendEventData_Response {
+      string result;
+    };
+  };
+};

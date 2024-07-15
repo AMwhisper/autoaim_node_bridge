@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from node_interface/msg/AutoaimData.msg
+// generated code does not contain a copyright notice
+
+
+module node_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "protocol_name: autoaimData" "\n"
+      "protocol_id: 0X0401" "\n"
+      "protocol_description: 云台控制")
+    struct AutoaimData {
+      float yaw_angle_diff;
+
+      float pitch_angle_diff;
+
+      uint8 fire;
+    };
+  };
+};
