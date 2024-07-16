@@ -11,8 +11,14 @@ Remember to change the following codes in ./src/node_bridge_ros2/protocol.py and
 ```
 workspace_dir = os.path.expanduser('~/ros/workspace/nbr2_ws')
 ```
-Change "workspace_dir" to your workspace path.  
-## Todo  
-Restricted to devices, this project haven't been verified on equipments.
-Modify "potocol.h" to make it corresponding with the interfaces in "node_interface".
+Change "workspace_dir" to your workspace path.    
+## Usage  
+Run the script named "aimxxx.sh", eg:   
+```
+./aimred.sh
+```
+## Todo List 
+- Restricted to devices, this project haven't been verified on equipments.
+- Modify "potocol.h" to make it corresponding with the interfaces in the package "node_interface".  
+- I don't know why it displays there is an error in cmake.txt. But I can still colcon build the package successfully. This problem comed out with a common boot. Interesting~
 
