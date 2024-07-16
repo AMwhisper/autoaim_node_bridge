@@ -1,0 +1,23 @@
+[0.429s] Invoking command in '/home/amwhisper/ros/workspace/nbr2_ws/src/autoaim': PYTHONPATH=/home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/prefix_override:/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autoaim build --build-base /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build install --record /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/install.log --single-version-externally-managed install_data
+[0.598s] running egg_info
+[0.599s] writing ../../build/autoaim/autoaim.egg-info/PKG-INFO
+[0.599s] writing dependency_links to ../../build/autoaim/autoaim.egg-info/dependency_links.txt
+[0.599s] writing entry points to ../../build/autoaim/autoaim.egg-info/entry_points.txt
+[0.599s] writing requirements to ../../build/autoaim/autoaim.egg-info/requires.txt
+[0.600s] writing top-level names to ../../build/autoaim/autoaim.egg-info/top_level.txt
+[0.601s] reading manifest file '../../build/autoaim/autoaim.egg-info/SOURCES.txt'
+[0.602s] writing manifest file '../../build/autoaim/autoaim.egg-info/SOURCES.txt'
+[0.602s] running build
+[0.602s] running build_py
+[0.603s] running install
+[0.603s] running install_lib
+[0.604s] running install_data
+[0.604s] copying data/img0.jpg -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/autoaim/data
+[0.604s] copying data/img1.jpg -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/autoaim/data
+[0.605s] copying data/img2.jpg -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/share/autoaim/data
+[0.605s] running install_egg_info
+[0.606s] removing '/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim-0.0.0-py3.10.egg-info' (and everything under it)
+[0.606s] Copying ../../build/autoaim/autoaim.egg-info to /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim-0.0.0-py3.10.egg-info
+[0.607s] running install_scripts
+[0.624s] writing list of installed files to '/home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/install.log'
+[0.642s] Invoked command in '/home/amwhisper/ros/workspace/nbr2_ws/src/autoaim' returned '0': PYTHONPATH=/home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/prefix_override:/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/autoaim build --build-base /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build install --record /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/install.log --single-version-externally-managed install_data

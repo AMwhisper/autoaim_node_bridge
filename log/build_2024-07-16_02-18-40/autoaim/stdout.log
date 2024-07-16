@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/autoaim/autoaim.egg-info/PKG-INFO
+writing dependency_links to ../../build/autoaim/autoaim.egg-info/dependency_links.txt
+writing entry points to ../../build/autoaim/autoaim.egg-info/entry_points.txt
+writing requirements to ../../build/autoaim/autoaim.egg-info/requires.txt
+writing top-level names to ../../build/autoaim/autoaim.egg-info/top_level.txt
+reading manifest file '../../build/autoaim/autoaim.egg-info/SOURCES.txt'
+writing manifest file '../../build/autoaim/autoaim.egg-info/SOURCES.txt'
+running build
+running build_py
+copying autoaim/toolbox.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+copying autoaim/predictor.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim
+running install
+running install_lib
+copying /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim/toolbox.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+copying /home/amwhisper/ros/workspace/nbr2_ws/build/autoaim/build/lib/autoaim/predictor.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim
+byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/toolbox.py to toolbox.cpython-310.pyc
+byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages/autoaim/predictor.py to predictor.cpython-310.pyc
+running install_data

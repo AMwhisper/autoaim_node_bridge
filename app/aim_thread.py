@@ -25,10 +25,10 @@ if __name__ == '__main__':
     app_config = {
         'config_name': 'aimred',
         'camera': {
-            'source': 0,
+            # 'source': 0,
             # 'method': 'daheng',
             # 'method': 'default',
-            'source': helpers.main_dir+'test19.mp4',
+            'source': helpers.main_dir+'data/'+ 'img0.jpg',
             'method': 'video',
         },
         'width': 1280,
@@ -49,11 +49,11 @@ if __name__ == '__main__':
         if arg == 'debug':
             app_config['serial'] = True
         elif arg == 'red':
-            app_config['config']['target_color'] = 'red'
+            app_config['target_color'] = 'red'
         elif arg == 'blue':
-            app_config['config']['target_color'] = 'blue'
+            app_config['target_color'] = 'blue'
         elif arg == 'white':
-            app_config['config']['target_color'] = 'white'
+            app_config['target_color'] = 'white'
         elif arg == 'analysis':
             app_config['analysis'] = True
     print(app_config, '\n')

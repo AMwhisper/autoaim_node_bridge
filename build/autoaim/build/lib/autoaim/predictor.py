@@ -221,7 +221,7 @@ class Predictor():
 if __name__ == '__main__':
     predictor = Predictor()
     for i in range(0, 335, 1):
-        img_url = 'data/test19/img{}.jpg'.format(i)
+        img_url = 'data/img{}.jpg'.format(i)
         print('Load {}'.format(img_url))
         img = helpers.load(img_url)
         predictor.predict(img, debug=True, timeout=100)

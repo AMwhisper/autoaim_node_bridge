@@ -1,0 +1,1 @@
+python3 app/aim_thread.py production red

@@ -1,0 +1,29 @@
+[0.497s] Invoking command in '/home/amwhisper/ros/workspace/nbr2_ws/src/node_bridge_ros2': AMENT_PREFIX_PATH=/home/amwhisper/ros/workspace/nbr2_ws/install/node_interface:/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amwhisper/ros/workspace/nbr2_ws/install/node_interface LD_LIBRARY_PATH=/home/amwhisper/ros/workspace/nbr2_ws/install/node_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/prefix_override:/home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages:/home/amwhisper/ros/workspace/nbr2_ws/install/node_interface/local/lib/python3.10/dist-packages:/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/node_bridge_ros2 build --build-base /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build install --record /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/install.log --single-version-externally-managed install_data
+[0.657s] running egg_info
+[0.658s] writing ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/PKG-INFO
+[0.658s] writing dependency_links to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/dependency_links.txt
+[0.659s] writing entry points to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/entry_points.txt
+[0.659s] writing requirements to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/requires.txt
+[0.659s] writing top-level names to ../../build/node_bridge_ros2/node_bridge_ros2.egg-info/top_level.txt
+[0.661s] reading manifest file '../../build/node_bridge_ros2/node_bridge_ros2.egg-info/SOURCES.txt'
+[0.663s] writing manifest file '../../build/node_bridge_ros2/node_bridge_ros2.egg-info/SOURCES.txt'
+[0.663s] running build
+[0.663s] running build_py
+[0.664s] copying node_bridge_ros2/bridge.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build/lib/node_bridge_ros2
+[0.664s] copying node_bridge_ros2/bridge_ros2.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build/lib/node_bridge_ros2
+[0.664s] copying node_bridge_ros2/__init__.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build/lib/node_bridge_ros2
+[0.664s] copying node_bridge_ros2/protocol.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build/lib/node_bridge_ros2
+[0.665s] copying node_bridge_ros2/test.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build/lib/node_bridge_ros2
+[0.665s] copying node_bridge_ros2/helpers.py -> /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build/lib/node_bridge_ros2
+[0.665s] running install
+[0.665s] running install_lib
+[0.666s] copying /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build/lib/node_bridge_ros2/bridge.py -> /home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages/node_bridge_ros2
+[0.667s] byte-compiling /home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages/node_bridge_ros2/bridge.py to bridge.cpython-310.pyc
+[0.668s] running install_data
+[0.668s] running install_egg_info
+[0.669s] removing '/home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages/node_bridge_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.670s] Copying ../../build/node_bridge_ros2/node_bridge_ros2.egg-info to /home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages/node_bridge_ros2-0.0.0-py3.10.egg-info
+[0.671s] running install_scripts
+[0.685s] Installing bridge_ros2 script to /home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/node_bridge_ros2
+[0.686s] writing list of installed files to '/home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/install.log'
+[0.699s] Invoked command in '/home/amwhisper/ros/workspace/nbr2_ws/src/node_bridge_ros2' returned '0': AMENT_PREFIX_PATH=/home/amwhisper/ros/workspace/nbr2_ws/install/node_interface:/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amwhisper/ros/workspace/nbr2_ws/install/node_interface LD_LIBRARY_PATH=/home/amwhisper/ros/workspace/nbr2_ws/install/node_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/prefix_override:/home/amwhisper/ros/workspace/nbr2_ws/install/node_bridge_ros2/lib/python3.10/site-packages:/home/amwhisper/ros/workspace/nbr2_ws/install/node_interface/local/lib/python3.10/dist-packages:/home/amwhisper/ros/workspace/nbr2_ws/install/autoaim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/node_bridge_ros2 build --build-base /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/build install --record /home/amwhisper/ros/workspace/nbr2_ws/build/node_bridge_ros2/install.log --single-version-externally-managed install_data

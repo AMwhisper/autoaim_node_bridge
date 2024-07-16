@@ -17,6 +17,9 @@ autoaim/predictor.py
 autoaim/telegram.py
 autoaim/toolbox.py
 configs/aimred.json
+data/img0.jpg
+data/img1.jpg
+data/img2.jpg
 resource/autoaim
 test/test_copyright.py
 test/test_flake8.py

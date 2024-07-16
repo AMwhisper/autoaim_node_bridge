@@ -13,6 +13,9 @@ setup(
         ('share/' + package_name + '/configs', ['configs/aimred.json']),
         ('share/' + package_name + '/weights', ['weights/lamp.csv']),
         ('share/' + package_name + '/weights', ['weights/pair.csv']),
+        ('share/' + package_name + '/data', ['data/img0.jpg']),
+        ('share/' + package_name + '/data', ['data/img1.jpg']),
+        ('share/' + package_name + '/data', ['data/img2.jpg'])
     ],
     install_requires=['setuptools'],
     zip_safe=True,

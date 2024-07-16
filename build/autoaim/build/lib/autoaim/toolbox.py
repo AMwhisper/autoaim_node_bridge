@@ -169,15 +169,20 @@ class Toolbox():
         lamps = self.data['lamps']
         for lamp in lamps:
             rect = cv2.boundingRect(lamp['contour'])
+
             x, y, w, h = rect
             lamp['bounding_rect'] = rect
             lamp['bounding_rect_area'] = int(w * h)
-            lamp['bounding_rect_ratio'] = w/h
-        threshold = self.config['rect_area_threshold']
-        self.data['lamps'] = [
-            x for x in lamps if self.__in(x['bounding_rect_area'], threshold)]
-        return mat
-
+            lamp['bounding_rect_ratio'] = w/h  
+            
+            threshold = self.config['rect_area_threshold']
+            self.data['lamps'] = [
+                x for x in lamps if self.__in(x['bounding_rect_area'], threshold)]
+            return mat  
+                       
+           
+              
+        
     def calc_point_angle(self, point, center=None):
         x_screen, y_screen = point
         camera_matrix = np.array(self.config['camera_matrix'])
