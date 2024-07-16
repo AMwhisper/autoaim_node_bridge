@@ -13,5 +13,6 @@ workspace_dir = os.path.expanduser('~/ros/workspace/nbr2_ws')
 ```
 Change "workspace_dir" to your workspace path.  
 ## Todo  
+Restricted to devices, this project haven't been verified on equipments.
 Modify "potocol.h" to make it corresponding with the interfaces in "node_interface".
 
