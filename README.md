@@ -11,11 +11,16 @@ Remember to change the following codes in ./src/node_bridge_ros2/protocol.py and
 ```
 workspace_dir = os.path.expanduser('~/ros/workspace/nbr2_ws')
 ```
-Change "workspace_dir" to your workspace path.    
+Change "workspace_dir/nbr_ws" to your workspace path.    
 ## Usage  
-Run the script named "aimxxx.sh", eg:   
+First, go to "/nbr2_ws" and build the ros2 packages.
 ```
-./aimred.sh
+amwhisper@ubuntu22:~/ros/workspace/nbr2_ws$ colcon build
+amwhisper@ubuntu22:~/ros/workspace/nbr2_ws$ source install/setup.bash
+```
+Secondly, run the script named "aimxxx.sh", eg:   
+```
+amwhisper@ubuntu22:~/ros/workspace/nbr2_ws$ ./aimred.sh
 ```
 ## Todo List 
 - Restricted to devices, this project haven't been verified on equipments.
